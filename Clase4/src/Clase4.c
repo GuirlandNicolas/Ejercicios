@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : Clase3.c
+ Name        : Clase4.c
  Author      : 
  Version     :
  Copyright   : Your copyright notice
@@ -97,5 +97,6 @@ float identificaMinimo(float auxB,float *pMinimo)
 	}
 	return 0;
 }
+
 
 
