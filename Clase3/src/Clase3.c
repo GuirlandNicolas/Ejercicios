@@ -32,10 +32,12 @@ int main(void)
 	float minimo = 100;
 	float maximoF = 0;
 	float minimoF = 100;
+	float cantidad = 3;
 
+	printf("Cantidad de veces que desea iterar: ");
+	scanf("%f",&cantidad);
 
-
-	for (i=0; i<3 ;i++)
+	for (i=0; i<cantidad ;i++)
 	{
 	float aux = 0;
 
@@ -75,7 +77,7 @@ int sumaDosFloat(float numero1,float numero2,float *resultado)
 
 
 
-float identificaMaximo(float auxA, float maximo,float  *maximoF)
+float identificaMaximo(float auxA, float maximo,float *maximoF)
 {
 	if (auxA > maximo)
 	{
@@ -85,7 +87,7 @@ float identificaMaximo(float auxA, float maximo,float  *maximoF)
 }
 
 
-float identificaMinimo(float auxB, float minimo,float  *minimoF)
+float identificaMinimo(float auxB, float minimo,float *minimoF)
 {
 	if (auxB < minimo)
 	{
